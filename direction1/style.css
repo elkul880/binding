@@ -3,38 +3,48 @@
 	--titlesize-m: 4rem;
 	--bodysize-s: 1.3rem;
 	--spacing: 5rem;
-	--color: #ab6a29;
-	background-color:#fff6de;
+	--navy: #101010;
+    --blue: #154bff;
+    --offwhite: #fafaf7;
+    --white: #eeefe8;
 }
 
 body {
-	font-family: "Cormorant Garamond";
+	font-family: "Bevan";
 	font-size: var(--bodysize-s);
 	padding: var(--spacing);
+	background-color: var(--offwhite);
 }
 
 h2 {
 	font-size: var(--titlesize-m);
-	font-family: "Redaction 10", serif;
-	margin-block-start: calc(var(--spacing)*2);
+	font-family: "Bevan";
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	line-height: 6rem;
 }
 
 h3 {
 	padding-block-start: calc(var(--spacing)/2);
 	color: var(--color);
 	font-size: var(--titlesize-s);
+	font-family: "Narnoor";
 }
 
 h4{
 	padding-block-start: var(--spacing);
 }
+}
 
 h4, time {
 	border-width: 1rem;
 	border-color: black;
+	font-family: "Narnoor";
 }
 
 p {
 	padding-block-start: var(--spacing);
 	line-height: 2rem;
+	font-family: "Narnoor";
 }
