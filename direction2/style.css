@@ -1,3 +1,35 @@
-body {
-	background-color: pink;
+:root {
+	--titlesize-s: 1.6rem;
+	--bodysize-s: 1.1rem;
+	--spacing: 5rem;
+	--color: #ab6a29;
+	background-color:#fffefb;
 }
+
+body {
+	font-size: var(--bodysize-s);
+	padding: var(--spacing);
+}
+
+
+h2, h3, time {
+	font-size: var(--titlesize-s);
+	font-family: "Kalnia";
+	color: rgb(224, 224, 224);
+	/* text-align: right; */
+	padding-inline-start: var(--spacing);
+	display:block;
+	margin-block-start: 1rem;
+}
+
+h2 {
+	color: red;
+	padding-inline-start:0%;
+}
+
+p {
+	padding-block-start: var(--spacing);
+	line-height: 2.3rem;
+	font-family: "Barlow";
+}
+
