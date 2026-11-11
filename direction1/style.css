@@ -1,3 +1,40 @@
-body{
-	background-color: black;
+:root {
+	--titlesize-s: 1.7rem;
+	--titlesize-m: 4rem;
+	--bodysize-s: 1.3rem;
+	--spacing: 5rem;
+	--color: #ab6a29;
+	background-color:#fff6de;
+}
+
+body {
+	font-family: "Cormorant Garamond";
+	font-size: var(--bodysize-s);
+	padding: var(--spacing);
+}
+
+h2 {
+	font-size: var(--titlesize-m);
+	font-family: "Redaction 10", serif;
+	margin-block-start: calc(var(--spacing)*2);
+}
+
+h3 {
+	padding-block-start: calc(var(--spacing)/2);
+	color: var(--color);
+	font-size: var(--titlesize-s);
+}
+
+h4{
+	padding-block-start: var(--spacing);
+}
+
+h4, time {
+	border-width: 1rem;
+	border-color: black;
+}
+
+p {
+	padding-block-start: var(--spacing);
+	line-height: 2rem;
 }
