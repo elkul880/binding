@@ -1,0 +1,32 @@
+:root {
+	--titlesize-s: 1.6rem;
+	--bodysize-s: 1.1rem;
+	--spacing: 5rem;
+}
+
+body {
+	padding: var(--spacing);
+}
+
+h1 {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 4rem;
+	text-align: center;
+	color: rgb(186, 187, 218);
+}
+
+h2 {
+	font-family: "Euphoria Script", cursive;
+	font-size: 9rem;
+	line-height: 0%;
+	text-align: center;
+}
+
+h3{
+	padding-block-start: var(--spacing);
+}
+
+p {
+	padding-block-start: var(--spacing);
+	line-height: 2.3rem;
+}
