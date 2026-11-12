@@ -73,4 +73,11 @@ p {
 	padding-block-start: var(--spacing);
 	line-height: 2.3rem;
 	padding: var(--spacing-s);
+	font-size: var(--bodysize-s);
+}
+
+
+.quote {
+	color: var(--red);
+	font-family: var(--bigfont);
 }
