@@ -1,4 +1,4 @@
-:root {
+ :root {
 	--titlesize-s: 1.6rem;
 	--bodysize-s: 1.1rem;
 	--spacing: 5rem;
@@ -16,7 +16,6 @@ h2, h3, time {
 	font-size: var(--titlesize-s);
 	font-family: "Kalnia";
 	color: rgb(224, 224, 224);
-	/* text-align: right; */
 	padding-inline-start: var(--spacing);
 	display:block;
 	margin-block-start: 1rem;

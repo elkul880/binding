@@ -1,6 +1,6 @@
 :root {
 	--titlesize-s: 1.7rem;
-	--titlesize-m: 4rem;
+	--titlesize-m: 5rem;
 	--bodysize-s: 1.3rem;
 	--spacing: 5rem;
 	--navy: #101010;
@@ -10,37 +10,53 @@
 }
 
 body {
-	font-family: "Bevan";
 	font-size: var(--bodysize-s);
 	padding: var(--spacing);
 	background-color: var(--offwhite);
+	font-family: "Naroor";
+}
+
+header {
+    text-align: center;
+    padding: 5rem 0 6rem;
+    border-bottom: 1px solid var(--navy);
 }
 
 h2 {
 	font-size: var(--titlesize-m);
-	font-family: "Bevan";
+	font-family: "Permanent Marker";
 	display: flex;
 	justify-content: center;
-	text-align:center;
-	line-height: 6rem;
+	text-align: center;
+	line-height: 4rem;
+	padding-block-end: var(--spacing);
 }
 
 h3 {
-	padding-block-start: calc(var(--spacing)/2);
+	/* padding-block-start: calc(var(--spacing)/2); */
 	color: var(--color);
 	font-size: var(--titlesize-s);
 	font-family: "Narnoor";
+	text-transform: uppercase;
+	line-height: 1.5rem;
 }
 
 h4{
 	padding-block-start: var(--spacing);
 }
+
+h4, h1 {
+	font-family: "Rock Salt";
+	color: var(--blue);
+	font-size: 1rem;
 }
 
-h4, time {
-	border-width: 1rem;
-	border-color: black;
-	font-family: "Narnoor";
+h1 {
+    border: 2px solid var(--blue);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+	border-radius: 100px;
+	margin-block-end: var(--spacing);
 }
 
 p {
@@ -48,3 +64,5 @@ p {
 	line-height: 2rem;
 	font-family: "Narnoor";
 }
+
+
