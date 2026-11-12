@@ -2,33 +2,70 @@
 	--titlesize-s: 1.6rem;
 	--bodysize-s: 1.1rem;
 	--spacing: 5rem;
-	--color: #ab6a29;
+	--spacing-s: 3rem;
+	--red: red;
+	--titlefont: "Kalnia";
+	--mainfont: "Barlow";
 	background-color:#fffefb;
 }
 
 body {
 	font-size: var(--bodysize-s);
+}
+
+main {
+	padding: var(--spacing-s);
+}
+
+header {
 	padding: var(--spacing);
 }
 
 
 h2, h3, time {
 	font-size: var(--titlesize-s);
-	font-family: "Kalnia";
+	font-family: var(--titlefont);
 	color: rgb(224, 224, 224);
 	padding-inline-start: var(--spacing);
 	display:block;
 	margin-block-start: 1rem;
 }
 
+time {
+	margin-block-end: 5rem;
+}
+
 h2 {
-	color: red;
+	color: var(--red);
 	padding-inline-start:0%;
 }
 
 p {
-	padding-block-start: var(--spacing);
 	line-height: 2.3rem;
-	font-family: "Barlow";
+	font-family: var(--mainfont);
 }
 
+.quote {
+	color: var(--red);
+	font-family: var(--titlefont);
+	padding-block-start: var(--spacing-s);
+	padding-block-end: var(--spacing-s);
+}
+
+
+li {
+    font-size: 0.8rem;
+    background-color: var(--red);
+    color: white;
+    /* border-radius: 20%; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--titlefont);
+	/* position: fixed; */
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+}

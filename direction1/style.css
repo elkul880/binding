@@ -3,28 +3,35 @@
 	--titlesize-m: 5rem;
 	--bodysize-s: 1.3rem;
 	--spacing: 5rem;
+	--spacing-s: 3rem;
 	--navy: #101010;
     --blue: #154bff;
     --offwhite: #fafaf7;
     --white: #eeefe8;
+	--titlefont: "Permanent Marker";
+	--mainfont: "Naroor";
+	--cursivefont: "Rock Salt";
 }
 
 body {
 	font-size: var(--bodysize-s);
-	padding: var(--spacing);
 	background-color: var(--offwhite);
-	font-family: "Naroor";
+	font-family: var(--mainfont);
+}
+
+main {
+	padding: var(--spacing-s);
 }
 
 header {
     text-align: center;
-    padding: 5rem 0 6rem;
+    padding: 4rem 2.5rem 6rem;
     border-bottom: 1px solid var(--navy);
 }
 
 h2 {
 	font-size: var(--titlesize-m);
-	font-family: "Permanent Marker";
+	font-family:var(--titlefont);
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -36,7 +43,7 @@ h3 {
 	/* padding-block-start: calc(var(--spacing)/2); */
 	color: var(--color);
 	font-size: var(--titlesize-s);
-	font-family: "Narnoor";
+	font-family: var(--mainfont);
 	text-transform: uppercase;
 	line-height: 1.5rem;
 }
@@ -46,7 +53,7 @@ h4{
 }
 
 h4, h1 {
-	font-family: "Rock Salt";
+	font-family: var(--cursivefont);
 	color: var(--blue);
 	font-size: 1rem;
 }
@@ -56,13 +63,33 @@ h1 {
     padding: 0.5rem 1rem;
     display: inline-block;
 	border-radius: 100px;
-	margin-block-end: var(--spacing);
+	margin-block-end: var(--spacing-s);
 }
 
 p {
 	padding-block-start: var(--spacing);
 	line-height: 2rem;
-	font-family: "Narnoor";
+	font-family: var(--mainfont);
+}
+
+
+.quote1, .quote2, .handwritten {
+    padding: 0;
+    margin: 0;
+}
+
+.quote1 {
+    margin-top: 5rem;
+}
+
+.quote1, .quote2 {
+	text-transform: uppercase;
+}
+
+.handwritten {
+    font-family: var(--cursivefont);
+    color: var(--blue);
+	margin: var(--spacing-s);
 }
 
 
